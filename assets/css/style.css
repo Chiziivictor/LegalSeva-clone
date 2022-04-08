@@ -192,12 +192,10 @@ header .carousel-inner .item {
   border-radius: 25px;
   font-size: 18px;
   font-weight: 400;
-  animation: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 #header .carousel-caption a:hover {
-  background: white;
-  color: #be9b49;
-  font-weight: 900;
+  transform: scale(105%);
 }
 
 #header .carousel-control.right {
@@ -557,10 +555,10 @@ header .carousel-inner .item {
 }
 
 .right-side .button input[type="button"] {
-  font-size: 18px;
+  font-size: 16px;
   outline: none;
   border: none;
-  padding: 8px 16px;
+  padding: 10px 16px;
   border-radius: 6px;
   background: #fff;
   cursor: pointer;
@@ -568,7 +566,8 @@ header .carousel-inner .item {
 }
 
 .button input[type="button"]:hover {
-  background: #f3da9e;
+  background: #eddebc;
+  transform: scale(105%);
 }
 
 /*responsive css*/
